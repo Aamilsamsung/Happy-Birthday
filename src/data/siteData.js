@@ -1,247 +1,98 @@
 /**
- * ============================================================================
- *  siteData.js — the only file you need to edit to personalise this website.
- * ============================================================================
- *
- *  Change the names, date, photos, letters, memories and wishes below.
- *  Layout, colours, stickers and animation timings are fixed in the components,
- *  so you do not need to touch them unless you want to redesign something.
- *
- *  Quick checklist when reusing this for someone else:
- *   1. Update `person` and `sender`.
- *   2. Replace the photo in `src/assets/orihime.jpg` (or change `person.photo`).
- *   3. Rewrite `littleLetter`, `bigLetter` and `loveNotes`.
- *   4. Edit `memories`, `timeline`, `reasons` and `wishes`.
- *   5. Optionally change `scrapbook.title` and `scrapbook.intro`.
- *
- *  Sticker / paper artwork lives in `public/stickers/`. If you replace those
- *  files, keep the same filenames and nothing else needs to change.
- * ============================================================================
+ * Birthday tribute for Sinaj, 27 November 2026, lovingly made by Aamil.
+ * Photos are deliberately placeholders until family images are provided.
  */
-
-import portrait from '../assets/orihime.jpg';
-import stamp from '../assets/love.png';
-import heartLetter from '../assets/heart_letter.png';
-import mewmew from '../assets/mewmew.gif';
-
-/* ---------------------------------------------------------------------------
- * 1. The people
- * ------------------------------------------------------------------------ */
-
 export const person = {
-  name: 'Trisha',
-  shortName: 'Trish',
-  age: 18,
-  birthday: '19 November',
-  photo: portrait,
-  photoAlt: 'A portrait of Trisha',
+  name: 'Sinaj',
+  shortName: 'Dad',
+  birthday: '27 November 2026',
+  photo: '/photos/sinaj-placeholder.svg',
+  photoAlt: 'A gold birthday placeholder awaiting a photo of Sinaj',
 };
-
-export const sender = {
-  name: 'Rexon',
-  signature: 'Your Best Friend, Rexon',
-};
-
-/* ---------------------------------------------------------------------------
- * 2. The little letter (the small animated envelope on the home page)
- * ------------------------------------------------------------------------ */
-
+export const sender = { name: 'Aamil', signature: 'With all my love, your son Aamil' };
 export const littleLetter = {
-  from: 'Rajib',
-  date: '19 · 11 · 2026',
-  greeting: `My dearest ${person.name},`,
+  from: 'Aamil',
+  date: '27 · 11 · 2026',
+  greeting: 'My dearest Dad,',
   paragraphs: [
-    'Happy 18th birthday! I hope this little letter finds you smiling in that way that makes every room feel warmer.',
-    'Thank you for being the softest, bravest, most ridiculous part of my days. You turn ordinary moments into stories I want to keep forever.',
-    'May this year be gentle with your heart, loud with your laughter, and full of every little thing you quietly wish for.',
+    'Happy Birthday, Dad. You have been my first hero, my greatest teacher, and the person I can always count on.',
+    'I may not say it enough, but I notice your sacrifices, your hard work, and all the ways you put our happiness before your own.',
+    'I hope I can make you as proud of me as I am to be your son. May this year bring you peace, health, and every happiness you deserve.',
   ],
-  closing: 'Always in your corner,',
-  signature: 'Rajib',
-  stamp,
+  closing: 'Always your son,',
+  signature: 'Aamil',
+  stamp: '/photos/gold-seal.svg',
 };
-
-/* ---------------------------------------------------------------------------
- * 3. The big fold-out letter (opened with “Click Here …”)
- * ------------------------------------------------------------------------ */
-
 export const bigLetter = {
-  coverTo: `Dear ${person.name}`,
-  coverTitle: 'Happy Birthday!',
-  coverSubtitle: 'A purr-fect message just for you... 💌',
-  heading: 'To You!',
+  coverTo: 'To My Dad, Sinaj',
+  coverTitle: 'Happy Birthday',
+  coverSubtitle: '27 November 2026 · A letter from Aamil',
+  heading: 'Dear Dad,',
   paragraphs: [
-    `Happy Birthday, ${person.name} ❤️`,
-    'From the moment we met, something in my life shifted — like the universe quietly guiding me toward someone meant for me. You brought warmth into the parts of me I didn’t even know were cold, and you expanded my days with a dimension I can only call my own.',
-    'On your birthday, I just want you to know this: I want you with me in every chapter, every storm, every sunshine, every tomorrow. No matter what comes, I’ll be on your side — always. I’ll choose you, protect you, stand with you, and love you in ways that remind you you’re never alone.',
-    'You’re not just another year older today… you’re the reason my life feels softer, brighter, and endlessly worth living. Happy Birthday.',
+    'Happy Birthday to my first hero, my strongest support, and the man I will always look up to.',
+    'I may not say it every day, but everything you do for me means more than words can express. Your sacrifices, your hard work, and your unconditional love are things I will never take for granted.',
+    'One of my biggest dreams is to become someone who makes you proud and gives you all the happiness you deserve. Every lesson you have taught me is something I carry with me.',
+    'If I could choose my father in every lifetime, I would choose you every single time. May this year bring you good health, peace, laughter, and countless reasons to smile.',
+    'Happy Birthday, Dad. I love you more than words can ever explain.',
   ],
   signature: sender.signature,
 };
-
-/* ---------------------------------------------------------------------------
- * 4. The floating notes page
- * ------------------------------------------------------------------------ */
-
 export const loveNotes = [
-  'Wish you the happiest birthday',
-  'One picture from you can change my whole day, my whole mood, my whole heartbeat.',
-  'Even through screens and pixels, your laugh reaches me like sunlight through a window — warm, real, and impossible to forget.',
-  'Every notification from you feels like a heartbeat whispering, I’m here, and I love you.',
-  'Our messages might travel through wires, but every word you send lands straight in my heart.',
-  'Ever since we met, my heart knew where it wanted to stay — with you, in every soft moment, every smile, every quiet piece of forever.',
-  'You turned an ordinary day into a memory my heart refuses to forget. Since then, every moment with you has felt softer, brighter, and filled with a kind of peace only you bring.',
-  'Since our first conversation, you’ve been the quiet spark that changed my world, turning ordinary days into moments that feel beautifully meant to be.',
+  'Happy Birthday, Dad! Today is all about celebrating you.',
+  'Thank you for believing in me, even when I doubt myself.',
+  'Your sacrifices have given me opportunities I never want to take for granted.',
+  'You have taught me that strength can be quiet and kindness can be powerful.',
+  'I hope the years ahead bring you the same happiness you give our family.',
+  'No matter how old I get, I will always be your son.',
+  'Making you proud will always be one of my biggest dreams.',
+  'If I could choose my dad again, I would choose you. Every time.',
 ];
-
-/* ---------------------------------------------------------------------------
- * 5. Home page labels
- * ------------------------------------------------------------------------ */
-
 export const home = {
-  greeting: `Dear ${person.name}`,
+  greeting: 'To my hero, Sinaj',
   date: person.birthday,
-  letterButton: `Click Here ${person.name}`,
-  notesButton: `From ${sender.name}`,
-  scrapbookLabel: 'Our Scrapbook',
+  letterButton: 'Open your birthday letter',
+  notesButton: 'Little notes from Aamil',
+  scrapbookLabel: 'Our Family Memories',
 };
-
-/* ---------------------------------------------------------------------------
- * 6. Scrapbook: memories
- * ------------------------------------------------------------------------ */
-
+const memory = (title, date, caption, image, imageAlt) => ({
+  title, date, caption, image: '/photos/memory-' + image + '.svg',
+  imageAlt, imageFit: 'cover'
+});
 export const memories = [
-  {
-    title: 'The first hello',
-    date: 'Where it all began',
-    caption: 'A simple hello that quietly turned into the best part of my days.',
-    image: person.photo,
-    imageAlt: person.photoAlt,
-    imageFit: 'cover',
-  },
-  {
-    title: 'Late-night talks',
-    date: '2 a.m. club',
-    caption: 'Conversations that never felt long enough, even when the sun came up.',
-    image: mewmew,
-    imageAlt: 'A tiny cat holding a heart',
-    imageFit: 'contain',
-  },
-  {
-    title: 'You + me',
-    date: 'Our favourite equation',
-    caption: 'Two little cats, one very big feeling. It has always been us.',
-    image: '/stickers/cat-hugging.webp',
-    imageAlt: 'Two kittens hugging',
-    imageFit: 'contain',
-  },
-  {
-    title: 'Flowers for you',
-    date: 'Just because',
-    caption: 'A tiny bouquet for the girl who makes absolutely everything bloom.',
-    image: '/stickers/sticker-3.webp',
-    imageAlt: 'Pressed flower bouquet sticker',
-    imageFit: 'contain',
-  },
-  {
-    title: 'The little things',
-    date: 'Kept on purpose',
-    caption: 'Songs, screenshots, inside jokes, and moments I kept because they were ours.',
-    image: heartLetter,
-    imageAlt: 'A fabric heart with a stitched arrow',
-    imageFit: 'cover',
-  },
-  {
-    title: 'Your main-character era',
-    date: `Turning ${person.age}`,
-    caption: 'Glasses on, peace sign up, absolutely unstoppable. The world is yours.',
-    image: '/stickers/cat-glasses.webp',
-    imageAlt: 'A cat wearing glasses and a bow',
-    imageFit: 'contain',
-  },
+  memory('Our family', 'The people who love you', 'Every moment together becomes a memory worth keeping.', 1, 'Placeholder for a family photograph'),
+  memory('Your smile', 'The little things', 'Some of the best moments are simply seeing you happy.', 2, 'Placeholder for a smiling photograph of Dad'),
+  memory('Growing up with you', 'A lifetime of learning', 'The lessons you have taught me will always stay with me.', 3, 'Placeholder for a childhood memory'),
+  memory('Ordinary days', 'Beautiful memories', 'The everyday moments matter more than we realize.', 4, 'Placeholder for a candid family photograph'),
+  memory('Your strength', 'Always inspiring', 'You have shown me what dedication and love look like.', 5, 'Placeholder for a photo of Dad'),
+  memory('Today, we celebrate you', '27 November 2026', 'Another year of memories, laughter and love. Happy Birthday, Dad.', 6, 'Placeholder for a birthday photograph'),
 ];
-
-/* ---------------------------------------------------------------------------
- * 7. Scrapbook: timeline
- * ------------------------------------------------------------------------ */
-
 export const timeline = [
-  {
-    date: 'Day one',
-    title: 'The first hello',
-    text: 'One message. No idea that it would become the start of something I would want to remember forever.',
-  },
-  {
-    date: 'Soon after',
-    title: 'The first real laugh',
-    text: 'The kind of laugh that makes you forget what you were worried about. I knew I wanted more of that sound.',
-  },
-  {
-    date: 'Somewhere in between',
-    title: 'The late-night calls',
-    text: 'Sleepy voices, silly stories, and promises to talk tomorrow. Somehow, midnight became my favourite time zone.',
-  },
-  {
-    date: 'A favourite chapter',
-    title: 'The first “I love you”',
-    text: 'Three little words that made the whole world feel quieter, warmer, and a lot more like home.',
-  },
-  {
-    date: person.birthday,
-    title: `Today — your ${person.age}th birthday`,
-    text: 'And here we are: celebrating you, the person who made all of these little moments add up to something beautiful.',
-    highlight: true,
-  },
+  { date: 'From the beginning', title: 'My first hero', text: 'Before I knew what a hero was, I already had one at home.' },
+  { date: 'Growing up', title: 'The lessons you gave me', text: 'From the smallest things to the biggest decisions, your guidance has shaped who I am.' },
+  { date: 'Through every challenge', title: 'My strongest support', text: 'Your care and steady encouragement have meant more than I can ever say.' },
+  { date: 'Every new chapter', title: 'A promise to make you proud', text: 'I will keep learning, growing and working to turn your hopes for me into something beautiful.' },
+  { date: '27 November 2026', title: 'Today is yours, Dad', text: 'Wishing you peace, good health, love and the happiness you deserve.', highlight: true },
 ];
-
-/* ---------------------------------------------------------------------------
- * 8. Scrapbook: reasons + wish jar
- * ------------------------------------------------------------------------ */
-
 export const reasons = [
-  {
-    front: 'Your smile',
-    back: 'It arrives before you even say a word — and somehow fixes the whole day.',
-  },
-  {
-    front: 'Your laugh',
-    back: 'Loud, ridiculous, contagious. My favourite sound in any room.',
-  },
-  {
-    front: 'Your kindness',
-    back: 'You notice the little things people need before they even ask.',
-  },
-  {
-    front: 'Your strength',
-    back: 'You keep going, keep growing, keep becoming — and you make it look beautiful.',
-  },
-  {
-    front: 'Your presence',
-    back: 'Everything feels calmer, softer, and a little more like home when you are around.',
-  },
-  {
-    front: 'Your dreams',
-    back: 'The way you light up when you talk about them is proof that the future is lucky to have you.',
-  },
+  { front: 'Your kindness', back: 'You care deeply for people, often without expecting anything in return.' },
+  { front: 'Your strength', back: 'Even when things are hard, you keep going. That inspires me.' },
+  { front: 'Your patience', back: 'You have helped me learn, make mistakes and become better.' },
+  { front: 'Your sacrifices', back: 'I know so much of what you do is for our family. I will never forget that.' },
+  { front: 'Your guidance', back: 'Your advice stays with me long after our conversations end.' },
+  { front: 'Your love', back: 'Knowing you are there is one of the greatest gifts in my life.' },
 ];
-
 export const wishes = [
-  'A year full of soft mornings, good coffee, and zero skipped desserts.',
-  'The courage to chase the things that make your eyes light up.',
-  'People who love you loudly, exactly as you are.',
-  'A hundred tiny moments that make you feel ridiculously lucky.',
-  'Every door you knock on opening into something better than you imagined.',
-  'A life that feels as beautiful as the way you make other people feel.',
-  'More laughter than your ribs can handle, and someone always there to catch you.',
-  'A front-row seat to every dream you have been quietly working toward.',
+  'May every new day bring you peace and a reason to smile.',
+  'May your health stay strong and your heart stay light.',
+  'May all the kindness you have given come back to you many times over.',
+  'May you have more moments of rest, joy and laughter.',
+  'May your dreams and hopes find their way into reality.',
+  'May our family make many more beautiful memories together.',
+  'May you always know how loved and appreciated you are.',
+  'May this birthday be the beginning of your happiest year yet.',
 ];
-
-/* ---------------------------------------------------------------------------
- * 9. Scrapbook: page copy
- * ------------------------------------------------------------------------ */
-
 export const scrapbook = {
-  title: 'Our Scrapbook',
-  intro:
-    'Some people are made of moments. This is a handful of mine with you — the memories, the tiny milestones, the wishes, and the stickers I could not resist.',
-  footer: 'Made with love, a little bit of code, and far too many stickers.',
+  title: 'Our Family Memories',
+  intro: 'A little collection of the moments, lessons and love that remind me how lucky I am to call you my dad. The pictures are coming soon; the love is already here.',
+  footer: 'Made with love, a little code, and a whole lot of gratitude. — Aamil',
 };

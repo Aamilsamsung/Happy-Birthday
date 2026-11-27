@@ -85,7 +85,7 @@ const SmallLetter = () => {
 
           <span className="small-rajib-stamp">
             <img src={littleLetter.stamp} alt="" />
-            <span>LOVE</span>
+            <span>DAD</span>
           </span>
 
           <span className="small-rajib-address">

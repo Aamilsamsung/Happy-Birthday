@@ -339,7 +339,6 @@ const Scrapbook = () => {
           </div>
           <img className="hero-tape" src={TAPE[0]} alt="" />
           <img className="hero-sticker hero-sticker--rose" src="/stickers/sticker-1.webp" alt="" />
-          <img className="hero-sticker hero-sticker--cat" src="/stickers/cat-glasses.webp" alt="" />
           <img className="hero-sticker hero-sticker--butterfly" src="/stickers/sticker-5.webp" alt="" />
           <span className="hero-scribble">for Dad, always</span>
         </div>

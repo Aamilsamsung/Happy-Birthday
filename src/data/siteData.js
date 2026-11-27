@@ -6,7 +6,7 @@ export const person = {
   name: 'Sinaj',
   shortName: 'Dad',
   birthday: '27 November 2026',
-  photo: '/photos/sinaj-placeholder.svg',
+  photo: '/photos/sinaj.jpeg',
   photoAlt: 'A gold birthday placeholder awaiting a photo of Sinaj',
 };
 export const sender = { name: 'Aamil', signature: 'With all my love, your son Aamil' };
@@ -55,7 +55,7 @@ export const home = {
   scrapbookLabel: 'Our Family Memories',
 };
 const memory = (title, date, caption, image, imageAlt) => ({
-  title, date, caption, image: '/photos/memory-' + image + '.svg',
+  title, date, caption, image: '/photos/memory-' + image + '.jpeg',
   imageAlt, imageFit: 'cover'
 });
 export const memories = [
@@ -93,6 +93,6 @@ export const wishes = [
 ];
 export const scrapbook = {
   title: 'Our Family Memories',
-  intro: 'A little collection of the moments, lessons and love that remind me how lucky I am to call you my dad. The pictures are coming soon; the love is already here.',
+  intro: 'A little collection of the moments, lessons and love that remind me how lucky I am to call you my dad. Memories we will always treasure.',
   footer: 'Made with love, a little code, and a whole lot of gratitude. — Aamil',
 };

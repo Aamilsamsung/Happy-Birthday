@@ -1,0 +1,98 @@
+/* Sinaj's 2026 birthday — luxury black and gold personalization. */
+:root {
+  --color-pink:#0b0b0d;
+  --color-white:#fff3db;
+  --color-black:#16120c;
+  --color-text-pink:#d4ad66;
+  --color-heart:#d4ad66;
+  --color-bg-letter:#fcf4e4;
+  --color-border:#c5a573;
+  --envelope-bg:#cfaa68;
+  --envelope-shadow:#775329;
+  --letter-bg:#f8efd9;
+  --letter-shadow:#997642;
+  --letter-text:#312318;
+  --letter-button-text:#37240f;
+  --heart-bg:#b99048;
+  --heart-text:#18120b;
+}
+body { background:#0c0c0d; color:#f5ead5; }
+#wrapper {
+  background:
+    radial-gradient(ellipse at 78% 25%,rgba(197,151,76,.19),transparent 44%),
+    radial-gradient(ellipse at 10% 85%,rgba(112,83,41,.18),transparent 42%),
+    #0c0c0d;
+}
+.title .happy,.title .birthday {text-shadow:2px 3px 0 #1a140b,0 0 20px rgba(209,162,80,.17);}
+.title .birthday { color:#d9b675; }
+#btn__letter,#FromRexon {
+  background:linear-gradient(130deg,#f2d79e,#ba8a3c);
+  color:#261b0f;
+  border-color:#e0b86f;
+  box-shadow:0 12px 32px rgba(0,0,0,.28);
+}
+#btn__letter:hover,#FromRexon:hover { color:#17120a; background:#f4deb3; border-color:#f4deb3; }
+.date__of__birth,.name {color:#20160c;background:linear-gradient(115deg,#e4c181,#c0944a);}
+.text__cricle {background:#dcb46d;border-color:#1c160f;background-image:none;}
+.text__cricle span {color:#20170b;}
+.cricle-center {background:radial-gradient(circle at 30% 24%,#ffe6aa,#b88940);}
+.box__account .image {border-color:#d8ae6c;}
+.box__account .image img {object-fit:cover;}
+.boxMail {
+  background:radial-gradient(circle at 50% 32%,#382916 0%,#17130d 45%,#080809 100%);
+}
+.boxMail .boxMail-container .card1 {
+  background:linear-gradient(145deg,#302519,#101112 55%,#30251a);
+  border:1px solid #a78445;
+  border-right:4px solid #bd9555;
+  box-shadow:inset 0 0 30px rgba(203,159,80,.12),8px 10px 27px rgba(0,0,0,.5);
+  color:#eed8af;
+}
+.boxMail .boxMail-container .card1::after {background:linear-gradient(140deg,#d9b773,#f8eacc);}
+.boxMail .boxMail-container .card1 .cover-title {color:#e5bd79;text-shadow:0 0 24px rgba(209,163,81,.16);}
+.boxMail .boxMail-container .card1 .username,
+.boxMail .boxMail-container .card1 .cover-subtitle,
+.cover-eyebrow {color:#f0d9a7;}
+.boxMail .boxMail-container .card1 .username .underline {background:#d8b36c;}
+.boxMail .boxMail-container .card1 .userImg {border:1px solid #d0ad69;background:#1a1611;}
+.boxMail .boxMail-container:hover {filter:drop-shadow(0 0 18px rgba(213,168,87,.3));}
+.boxMail .boxMail-container .card2 h3,
+.boxMail .boxMail-container .card2 .signature {color:#856026;}
+.boxMail .boxMail-container .card2 h3 {border-bottom-color:rgba(140,103,43,.35);}
+.loader-wrapper {background:#0c0c0d!important;}
+.cakeText .cakeText-title,.cakeText .cakeText-name {color:#e1bc79;text-shadow:0 0 18px rgba(209,159,68,.25);}
+.cakeText .cakeText-kitty-bow,.opening-sticker.sticker--cat-glasses,.opening-sticker.sticker--cat-hug {display:none;}
+.opening-sticker {filter:grayscale(1) sepia(.75) saturate(.8);}
+.small-rajib-envelope-body {background:linear-gradient(155deg,#f1d49d,#cba259 58%,#9c7338);}
+.small-rajib-flap {border-top-color:#e9c78a;}
+.small-rajib-wax {background:radial-gradient(circle at 34% 27%,#e4b86b,#9c722c 58%,#402b12);color:#fff4de;}
+.munna.cssletter .envelope-flap {color:#2c1e0d;}
+.route-loader {background:#0c0b0a;}
+.scrapbook {
+  --ink:#302519;
+  --ink-soft:#6e5b42;
+  --rose:#c49b56;
+  --rose-deep:#97703b;
+  --wine:#79551f;
+  --gold:#d1a45d;
+  background:
+    radial-gradient(ellipse at 12% 8%,rgba(202,161,88,.17),transparent 42%),
+    linear-gradient(150deg,#111112,#211a10 60%,#101011);
+  color:#f5e6cb;
+}
+.scrapbook-eyebrow,.scrapbook-kicker {color:#edc681;}
+.scrapbook-title span {color:#f9e9cb;}
+.scrapbook-title em {color:#e3b973;}
+.scrapbook-intro,.scrapbook-subtitle,.scrapbook-bar__note,.scrapbook-footer p {color:#d6c19a;}
+.scrapbook-heading h2 {color:#f7e9cf;}
+.scrapbook-nav__link,.scrapbook-back {background:#f2e4c9;color:#342719;}
+.scrapbook .hero-scribble {color:#e7c786;}
+.scrapbook-grain {opacity:.11;}
+.scrapbook .memory-card,.scrapbook .timeline-card,.scrapbook .reason-card {box-shadow:0 10px 28px rgba(0,0,0,.23);}
+.timeline-item.is-highlight .timeline-card {background:linear-gradient(145deg,#49361c,#17140e);border-color:#bd9553;}
+.scrapbook-tab {background:#edcd90;color:#25180c;border-color:#3b2a15;box-shadow:4px 5px 0 rgba(0,0,0,.55);}
+.scrapbook-tab__kicker {background:#281d10;color:#f8e1ad;}
+.scrapbook-tab__arrow {color:#694719;}
+@media(prefers-reduced-motion:reduce){
+  .scrapbook-tab {animation:none;}
+}

@@ -6,7 +6,7 @@ import '../Opening.css'
 // Fixed presentation values — change these only if you redesign the loader.
 const CONFETTI_START_MS = 6800
 const CONFETTI_DURATION_MS = 2000
-const CONFETTI_COLORS = ['#bb0000', '#ffffff', '#FF7882', '#f1f0c3']
+const CONFETTI_COLORS = ['#d3ad66', '#f3e0b8', '#98743c', '#ffffff']
 
 const OpeningAnimation = ({ animateOut }) => {
 
@@ -54,7 +54,7 @@ const OpeningAnimation = ({ animateOut }) => {
   }, [])
 
   return (
-    <main className={`bg-[#ee9ca7] w-full h-screen overflow-hidden absolute top-0 left-0 loader-wrapper ${animateOut ? 'slide-up-fade-out' : ''}`}>
+    <main className={`bg-[#0c0b0a] w-full h-screen overflow-hidden absolute top-0 left-0 loader-wrapper ${animateOut ? 'slide-up-fade-out' : ''}`}>
       {/* --- SVG Decoration Container --- */}
       <svg className="full-screen-deco" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice">
         {/* Large, slow-moving circle (soft cloud/bubble) - existing */}
@@ -66,7 +66,7 @@ const OpeningAnimation = ({ animateOut }) => {
         {/* --- NEW RANDOM PARTICLES/CLOUDS --- */}
 
         {/* Reddish particle 1 */}
-        <circle cx="5" cy="50" r="3" fill="#8B0000" className="deco-shape particle-red-1" />
+        <circle cx="5" cy="50" r="3" fill="#b88b42" className="deco-shape particle-red-1" />
         {/* White particle 1 */}
         <circle cx="90" cy="60" r="4" fill="rgba(255, 255, 255, 0.7)" className="deco-shape particle-white-1" />
         {/* Soft pink particle 1 */}
@@ -134,8 +134,8 @@ const OpeningAnimation = ({ animateOut }) => {
 
 
           <div className="MUNNA cakeText">
-            <h1 className="MUNNA cakeText-title">Happy {person.age}th Birthday!</h1>
-            <div className="MUNNA cakeText-name">{person.name} <div className="MUNNA cakeText-kitty-bow"></div></div>
+            <h1 className="MUNNA cakeText-title">Happy Birthday, Dad!</h1>
+            <div className="MUNNA cakeText-name">{person.name} </div>
           </div>
 
 

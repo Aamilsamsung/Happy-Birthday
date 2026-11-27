@@ -56,7 +56,7 @@ export const home = {
 };
 const memory = (title, date, caption, image, imageAlt) => ({
   title, date, caption, image: '/photos/memory-' + image + '.jpeg',
-  imageAlt, imageFit: 'cover'
+  imageAlt, imageFit: 'contain'
 });
 export const memories = [
   memory('Our family', 'The people who love you', 'Every moment together becomes a memory worth keeping.', 1, 'Placeholder for a family photograph'),

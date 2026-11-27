@@ -101,3 +101,8 @@ body { background:#0c0c0d; color:#f5ead5; }
 .date__of__birth { display:flex !important; align-items:center; justify-content:center; gap:10px; box-sizing:border-box; padding:0 14px; }
 .date__of__birth > span { white-space:nowrap; font-size:clamp(14px, 3.5vw, 23px); line-height:1.2; text-align:center; flex:0 1 auto; }
 .date__of__birth > svg { flex-shrink:0; }
+
+/* High contrast scrapbook return buttons. */
+.scrapbook .scrapbook-back, .scrapbook .scrapbook-footer__link { background:#e5c58b !important; color:#21170d !important; border:1px solid #c49a52; font-weight:700; text-decoration:none; }
+.scrapbook .scrapbook-back:hover, .scrapbook .scrapbook-footer__link:hover { background:#f5ddb0 !important; color:#21170d !important; }
+.scrapbook .scrapbook-back span, .scrapbook .scrapbook-footer__link span { color:inherit !important; }

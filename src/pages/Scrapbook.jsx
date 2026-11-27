@@ -46,7 +46,7 @@ const STICKER_WALL = [
   { src: '/stickers/sticker-5.webp', caption: 'A blue butterfly' },
   { src: '/stickers/sticker-6.webp', caption: 'Lavender, just because' },
   { src: '/photos/gold-seal.svg', caption: 'Family forever' },
-  { src: '/photos/memory-6.svg', caption: 'Today is Dad's day' },
+  { src: '/photos/memory-6.jpeg', caption: "Today is Dad's day" },
 ]
 
 const NAV_ITEMS = [
@@ -61,7 +61,7 @@ const SECTIONS = {
   memories: {
     kicker: '01 — The archive',
     title: 'Memories worth keeping',
-    subtitle: 'Soon filled with our favourite photos together.',
+    subtitle: 'Our favourite photos together.',
   },
   timeline: {
     kicker: '02 — How we got here',

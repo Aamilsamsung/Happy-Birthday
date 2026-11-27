@@ -79,7 +79,7 @@ const BookCanvas = ({ active, setActive }) => {
 
           {/* Cover content */}
           <div className="cover-text-wrapper">
-            <span className="cover-eyebrow">A LITTLE BOOK OF MEMORIES</span>
+            <span className="cover-eyebrow">A LETTER TO MY DAD</span>
 
             <h4 className="username">
               {bigLetter.coverTo}
@@ -102,7 +102,7 @@ const BookCanvas = ({ active, setActive }) => {
 
           <span className="notebook-tape" aria-hidden="true" />
           <span className="notebook-label" aria-hidden="true">
-            MADE WITH LOVE ♥
+            WITH LOVE, AAMIL
           </span>
 
           <svg className="deco-shape top-right-star" viewBox="0 0 100 100" aria-hidden="true">

@@ -324,13 +324,7 @@ const Scrapbook = () => {
           </h1>
           <p className="scrapbook-intro">{scrapbook.intro}</p>
 
-          <nav className="scrapbook-nav" aria-label="Scrapbook sections">
-            {NAV_ITEMS.map((item) => (
-              <a key={item.id} className="scrapbook-nav__link" href={`#${item.id}`}>
-                {item.label}
-              </a>
-            ))}
-          </nav>
+          
         </div>
 
         <div className="scrapbook-hero__collage" aria-hidden="true">

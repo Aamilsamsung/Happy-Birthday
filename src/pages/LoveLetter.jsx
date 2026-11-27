@@ -59,7 +59,7 @@ const LoveLetter = () => {
   }
 
   return (
-    <main className="munna bg-[#8b0000] h-screen w-full overflow-hidden">
+    <main className="munna bg-[#0c0b0a] h-screen w-full overflow-hidden">
       <section className="munna cssletter z-10">
         <div className={`envelope ${openEnvelope ? 'active' : ''}`}>
           <button
@@ -73,7 +73,7 @@ const LoveLetter = () => {
           </button>
           <div className="munna envelope-flap text-black relative">
             <div className="munna absolute left-1/2 top-[20%] -translate-x-1/2 flex items-center justify-center flex-col md:gap-y-2">
-              <span className="munna font-sriracha md:text-2xl text-lg">Envelope Of Love</span>
+              <span className="munna font-sriracha md:text-2xl text-lg">Notes For Dad</span>
               <span className="munna font-dancingScript md:text-3xl text-xl">Dear {person.name}</span>
             </div>
           </div>

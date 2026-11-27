@@ -45,8 +45,8 @@ const STICKER_WALL = [
   { src: '/stickers/sticker-4.webp', caption: 'Paper heart' },
   { src: '/stickers/sticker-5.webp', caption: 'A blue butterfly' },
   { src: '/stickers/sticker-6.webp', caption: 'Lavender, just because' },
-  { src: '/stickers/cat-hugging.webp', caption: 'The two of us' },
-  { src: '/stickers/cat-glasses.webp', caption: 'Main-character energy' },
+  { src: '/photos/gold-seal.svg', caption: 'Family forever' },
+  { src: '/photos/memory-6.svg', caption: 'Today is Dad's day' },
 ]
 
 const NAV_ITEMS = [
@@ -61,16 +61,16 @@ const SECTIONS = {
   memories: {
     kicker: '01 — The archive',
     title: 'Memories worth keeping',
-    subtitle: 'Pinned crooked on purpose, because perfect is boring.',
+    subtitle: 'Soon filled with our favourite photos together.',
   },
   timeline: {
     kicker: '02 — How we got here',
-    title: 'A timeline of little miracles',
-    subtitle: 'One line, a thousand tiny moments that led to today.',
+    title: 'A lifetime of love and lessons',
+    subtitle: 'A few ways you have shaped my world.',
   },
   reasons: {
     kicker: '03 — The why',
-    title: 'Reasons you are impossible to forget',
+    title: 'Six reasons I admire you',
     subtitle: 'Tap a card. There is more love hiding on the other side.',
   },
   wishJar: {
@@ -84,7 +84,7 @@ const SECTIONS = {
   stickers: {
     kicker: '05 — The sticker wall',
     title: 'A few more things I saved for you',
-    subtitle: 'Flowers, stars, butterflies, and two cats who clearly know what love is.',
+    subtitle: 'Little symbols of everything I wish for you.',
   },
 }
 
@@ -314,10 +314,10 @@ const Scrapbook = () => {
 
       <header className="scrapbook-hero">
         <div className="scrapbook-hero__copy">
-          <p className="scrapbook-eyebrow">A little archive of us</p>
+          <p className="scrapbook-eyebrow">A gift from Aamil</p>
           <h1 className="scrapbook-title">
-            <span>Our</span>
-            <em>Scrapbook</em>
+            <span>Family</span>
+            <em>Memories</em>
             <svg className="scrapbook-title__underline" viewBox="0 0 420 26" preserveAspectRatio="none" aria-hidden="true">
               <path d="M4 17C88 5 176 25 416 10" pathLength="1" />
             </svg>
@@ -347,7 +347,7 @@ const Scrapbook = () => {
           <img className="hero-sticker hero-sticker--rose" src="/stickers/sticker-1.webp" alt="" />
           <img className="hero-sticker hero-sticker--cat" src="/stickers/cat-glasses.webp" alt="" />
           <img className="hero-sticker hero-sticker--butterfly" src="/stickers/sticker-5.webp" alt="" />
-          <span className="hero-scribble">for you, always</span>
+          <span className="hero-scribble">for Dad, always</span>
         </div>
       </header>
 

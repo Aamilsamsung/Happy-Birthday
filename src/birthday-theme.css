@@ -106,3 +106,9 @@ body { background:#0c0c0d; color:#f5ead5; }
 .scrapbook .scrapbook-back, .scrapbook .scrapbook-footer__link { background:#e5c58b !important; color:#21170d !important; border:1px solid #c49a52; font-weight:700; text-decoration:none; }
 .scrapbook .scrapbook-back:hover, .scrapbook .scrapbook-footer__link:hover { background:#f5ddb0 !important; color:#21170d !important; }
 .scrapbook .scrapbook-back span, .scrapbook .scrapbook-footer__link span { color:inherit !important; }
+
+/* Preserve full family portraits and readable captions. */
+.scrapbook .memory-photo img { object-fit:contain !important; object-position:center; }
+.scrapbook .memory-photo { background:#eee1cc; }
+.scrapbook .memory-card figcaption h3 { color:#49351e !important; }
+.scrapbook .hero-sticker--cat { display:none !important; }
